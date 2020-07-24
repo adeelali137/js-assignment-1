@@ -2638,7 +2638,10 @@ for (var editButton of editButtons) {
 // }
 
 // function onClosedImagModal() {
-//   document.getElementById("modal").style.display = "none";
+//   var model = document.getElementById("modal");
+//   setTimeout(() => {
+//     modal.style.display = "none";
+//   }, 550);
 // }
 
 // CHAPTER 58-67

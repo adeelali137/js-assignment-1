@@ -35,5 +35,8 @@ for (var i = 0; i < images.length; i++) {
 }
 
 function onClosedImagModal() {
-  document.getElementById("modal").style.display = "none";
+  var model = document.getElementById("modal");
+  setTimeout(() => {
+    modal.style.display = "none";
+  }, 550);
 }
